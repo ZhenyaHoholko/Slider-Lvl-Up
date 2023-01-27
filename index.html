@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    /> 
+    <!-- подключен шрифт font-awesome, для возможности использовать различные картинки -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Slider lvl up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div
+          style="
+            background: linear-gradient(229.99deg, #11dee9 -26%, #017e8b 145%);
+          "
+        >
+          <h1>Porsche</h1>
+          <p>Manageability, intrigue & classic</p>
+        </div>
+        <div
+          style="
+            background: linear-gradient(215.32deg, #f90307f5 -1%, #9e0606ed 124%);
+          "
+        >
+          <h1>Ferrari</h1>
+          <p>Brilliance, style & aesthetic</p>
+        </div>
+        <div
+          style="
+            background: linear-gradient(221.87deg, #8408eaec 1%, #5405afec 128%);
+          "
+        >
+          <h1>Audi</h1>
+          <p>Love, death & speed</p>
+        </div>
+        <div
+          style="
+            background: linear-gradient(220.16deg, #ffe101ed -8%, #f39302e3 138%);
+          "
+          <!-- отображение background и картинки идет в обратном порядке. Зеркально расположены -->
+        >
+          <h1>BMW</h1>
+          <p>Service, character & history</p>
+        </div>
+      </div>
+      <div class="main-slide">
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1653758010186-ac23165e1d82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1558724486-e33183eb057d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1653484776051-3c08d24f895b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1119&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1583698896760-7355120cede6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+          "
+        ></div>
+      </div>
+      <div class="controls">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
